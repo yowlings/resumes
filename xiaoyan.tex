@@ -1,0 +1,103 @@
+% !TEX program = xelatex
+
+\documentclass{resume}
+%\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{Peng Wang}
+
+\basicInfo{
+  \email{yowlings@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 18046501051} \textperiodcentered\ 
+  \github[yowlings]{https://github.com/yowlings}\textperiodcentered\ 
+  \linkedin[yowlings]{https://www.linkedin.com/in/yowlings}}
+
+
+\section{\faGraduationCap\ Education}
+\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2013.6 -- 2016.4}
+\textit{Master Degree} in Patern Recognition and Intelligent System
+\datedsubsection{\textbf{Beihang University (BUAA)}, Beijing, China}{2009.9 -- 2013.6}
+\textit{Bachelor Degree} in Automatic Control and Information Technology
+
+\section{\faCogs\  Skills}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{Programming}: Good at C++ and can basicly use python script ;
+  \item \textbf{Linux}: Using Linux environment to program all the time and master bash script;
+  \item \textbf{Mobile robot controlling}:  I can develop the entire driver and ROS bringup package of mobile robot with serial port . The xbot\_bringup package which I developed for our xbot robot is documented to ROSwiki page and adopted by robot manufactor company and some other users.
+  \item \textbf{ROS}:With more that four years ROS developing experience, I am familiar with the software structure of ROS and can use it programming most ROS packages.
+  \item \textbf{Navigation and Pathplanning}: Familiar with Dijkstra,A*,D* .etc global path finding algorithms,familiar with DWA local planning algorithm,deeply involved with move\_base ROS package and could develop robot navigation program independently;
+  \item \textbf{2D-SLAM}: I have used the most 2D lidar including RPlidar1,2,SICK TiM571, Velodyne PUCK(3D) and take charge in AMCL localization algorithm in known map, searched Gmapping SLAM algorithm and know how to optimize it,what's more,I have tested the  google cartographer SLAM in our xbot platform;
+  \item \textbf{VSLAM}: Researched and used ORBSlam algorithm,I have used the most depth camera including kinect,Asus,Intel Realsense .etc;
+  
+\end{itemize}
+
+\section{\faUsers\ Experience}
+\datedsubsection{\textbf{Team leader of xlab robot team in Institute of Software Chines Academy of Science}}{2016.4. -- now}
+\role{Development of xbot service robot}
+
+\begin{itemize}
+  \item Task allocation of xbot service robot development project;
+  \item xbot control driver and ROS bringup package;
+  \item Integrating xbot\_driver,xbot\_bringup,xbot\_slam,xbot\_navigation,xbot\_navigoals ROS packages modules to xbot;
+  \item Apply xbot SLAM and navigation to the soft meseum, which leads visitors to visit the meseum and explain contents.
+\end{itemize}
+
+\datedsubsection{\textbf{Tencent Youtu cooperate project leader}}{2016.4 -- now}
+\role{Greeter service robot with initiative face recognition}
+
+\begin{itemize}
+  \item Realized SLAM,path planning and navigation of greeter robot;
+  \item Realized the application of greeter robot in hotel and caffe restruant;
+  \item Integrated Youtu face recognition application to system and the cooperation between android pad and ROS mobile platform.  
+\end{itemize}
+
+\datedsubsection{\textbf{Master research topic in Beihang university}}{2013.6 -- 2016.4}
+\role{Heterogeneou multi-robot cooperation and  exploration in unknown environment}
+
+
+\begin{itemize}
+  \item NAO humanoid robot control;
+  \item Coperation of NAO and other two mobile robot;
+  \item 98\%+ exploration rate of unknown environment in ROS simulation;
+  \item Multi-robot cooperation and movement plan strategy development.
+\end{itemize}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+
+
+\section{\faGratipay\ Prize}
+\datedline{\textit{Gold prize of Chinese math competition of college studet}}{2011}
+\datedline{\textit{Excelent monitor}}{2014}
+\datedline{\textit{Excelent master student}}{2015}
+\datedline{\textit{Outstanding graduate studtent of Beijing}}{2016}
+
+\section{\faBook\ Publication}
+EI：Peng Wang, Shiyin Qin:
+\textit{Heterogeneous multi-robot behavior evolution towards target searching in unknown environment based on reinforcement learning} 
+2015 IEEE International Conference on Modeling, Algorithm and Artificial Intelligence (MAAI 2015)
+
+\section{\faInfoCircle\ References}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]  
+  \item \textbf{My GitHub}: https://github.com/yowlings
+  \item \textbf{XbotGroup Github}: https://github.com/XbotGroup
+  \item \textbf{Blog}: https://yowlings.github.io/
+  \item \textbf{xbot ROS page}: http://robots.ros.org/xbot/
+  \item \textbf{xbot ROS wiki open source tutorials}: http://wiki.ros.org/Robots/Xbot?distro=indigo
+\end{itemize}
+
+%% Reference
+%\newpage
+% \bibliographystyle{IEEETran}
+\end{document}

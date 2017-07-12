@@ -1,0 +1,119 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{汪鹏}
+
+\basicInfo{
+  \email{yowlings@gmail.com} \textperiodcentered\ 
+  \phone{18046501051} \textperiodcentered\ 
+  \linkedin[yowlings]{https://www.linkedin.com/in/yowlings/}\textperiodcentered\ 
+  \github[yowlings]{https://github.com/yowlings}}
+
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{北京航空航天大学}}{2013.9 -- 2016.4}
+\textit{硕士研究生}\     自动化学院, 模式识别与智能系统专业, 机器人方向,研究多机器人协作
+\datedsubsection{\textbf{北京航空航天大学}}{2009 -- 2013}
+\textit{学士}\   自动化学院,自动控制与信息技术专业,图像处理方向,研究图像去噪和超分辨率重建技术
+
+\section{\faBriefcase\  工作经历}
+\datedsubsection{\textbf{中国科学院软件研究所}}{2016.4 至今}
+\textit{工程师}\ 智能服务机器人xbot研发,主动人脸识别迎宾机器人项目主要负责人, xlab机器人组组长
+
+\section{\faCogs\  IT技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item \textbf{编程语言}: 熟练使用C++,基本掌握python脚本语言;
+  \item \textbf{Linux平台}: 一直使用linux作为开发环境,熟练使用linux以及bash脚本;
+  \item \textbf{机器人运动控制算法}: 能够完整编写串口通讯的机器人运动控制驱动程序以及ROS驱动包;开源到ROSwiki社区的xbot\_bringup包被机器人厂家引用,并被包括武汉大学在内多家机器人使用单位采用;
+  \item \textbf{ROS系统}:主要在ROS环境下开发机器人,熟悉ROS系统的主要架构,熟练使用ROS,能开发大部分ROS Packages;
+  \item \textbf{机器人导航规划算法}: 熟练掌握Dijkstra,A*,D*全局规划算法,熟练掌握DWA局部规划算法,深入理解move\_base运动规划ROS包,能够独立编写机器人运动规划程序;
+  \item \textbf{机器人2D-SLAM算法}: 熟悉AMCL机器人已知地图定位算法,深入研究并掌握Gmapping SLAM算法,能够使用谷歌cartographer SLAM算法;
+  \item \textbf{视觉VSLAM}: 研究与使用过ORBSlam算法,使用过市面上大多数深度摄像头,包括kinect,Asus,Intel Realsense等;
+  \item \textbf{激光雷达}: 使用过思岚科技2D Rplidar一代,二代,Sick TiM571激光雷达,Velodyne PUCK 16线激光雷达,了解以上设备的对比特性.
+\end{itemize}
+
+\section{\faUsers\ 项目经验}
+\datedsubsection{\textbf{中国科学院软件研究所xlab机器人组组长}}{2016年4月 至今}
+\role{xbot服务机器人项目研发}
+
+\begin{itemize}
+  \item xbot服务机器人研发的整体规划和任务分配;
+  \item xbot移动机器人底盘的运动控制驱动程序开发,ROS程序开发支持;
+  \item 完成了ROS环境下集xbot\_driver,xbot\_bringup,xbot\_slam,xbot\_navigation,xbot\_navigoals等多个功能模块于一体的服务机器人定位与导航;
+  \item 实现了机器人SLAM与导航在软件博物馆的应用落地,xbot机器人带领参观者参观并同步讲解博物馆内容;
+\end{itemize}
+
+\datedsubsection{\textbf{中国科学院软件研究所-腾讯优图合作项目主要负责人}}{2016年4月 至今}
+\role{具备主动人脸识别的迎宾机器人}
+
+\begin{itemize}
+  \item 实现了迎宾机器人的SLAM,运动规划与导航功能;
+  \item 完成迎宾服务机器人在酒店,咖啡厅等场景的应用测试;
+  \item 集成了腾讯优图人脸识别应用,实现安卓端的识别与ROS的通信协作;  
+\end{itemize}
+
+\datedsubsection{\textbf{北京航空航天大学硕士论文研究课题}}{2013年6月 -- 2016年4月}
+\role{未知环境中异构多机器人协作探测}
+
+\begin{onehalfspacing}
+\begin{itemize}
+  \item NAO人形双足机器人运动控制;
+  \item NAO与两个双轮差分式机器人协作探测;
+  \item ROS环境中仿真实现整体环境探测率98\%以上;
+  \item 多机实验中完成机器人协作策略算法和实际运动合作规划;
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+
+
+\section{\faGratipay\ 获奖情况}
+\datedline{\textit{全国大学生数学竞赛一等奖}}{2011年}
+\datedline{\textit{优秀学生干部}}{2014年}
+\datedline{\textit{优秀研究生}}{2015年}
+\datedline{\textit{北京市优秀毕业生}}{2016年}
+
+\section{\faBook\ 发表论文}
+EI检索：Peng Wang, Shiyin Qin:
+\textit{Heterogeneous multi-robot behavior evolution towards target searching in unknown environment based on reinforcement learning} 
+2015 IEEE International Conference on Modeling, Algorithm and Artificial Intelligence (MAAI 2015)
+
+\section{\faCommenting\ 个人特点}
+\begin{enumerate}
+  \item 注重实践.一切算法效果以机器人的实际实验结果为准,在实践中迭代优化;
+  \item 注重团队合作与沟通;
+  \item 写代码必须理论依据清晰,必要时需要从论文开始研究;
+  \item 深知软件框架在持续开发中的重要性;
+  \item 以实现具备超人工智能的机器人为个人志向.
+\end{enumerate}
+\section{\faInfoCircle\ 参考材料}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]  
+  \item \textbf{个人GitHub}: https://github.com/yowlings
+  \item \textbf{xbot机器人组Github}: https://github.com/XbotGroup
+  \item \textbf{技术博客}: https://yowlings.github.io/
+  \item \textbf{xbot机器人ROS页面}: http://robots.ros.org/xbot/
+  \item \textbf{xbot ROS wiki开源教程}: http://wiki.ros.org/Robots/Xbot?distro=indigo
+\end{itemize}
+
+%% Reference
+%\newpage
+% \bibliographystyle{IEEETran}
+\end{document}
